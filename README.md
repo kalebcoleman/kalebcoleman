@@ -11,7 +11,7 @@ I build end-to-end, reproducible AI and data systems — from raw data pipelines
 
 | Project | Description | Tech |
 |--------|-------------|------|
-| **NBA Data Pipeline** | End-to-end ESPN pipeline: raw JSON → validated tables → RDS/CSV/SQLite | R, SQL, JSON |
+| **[NBA Data Pipeline](https://github.com/kalebcoleman/nba-data)** | End-to-end ESPN pipeline: raw JSON → validated tables → RDS/CSV/SQLite | R, SQL, JSON |
 | **NBA Win Modeling** | Leakage-aware rolling-metric models with time-safe validation | R, ML |
 | **Halma AI** | Minimax + alpha–beta pruning game agent with GUI + arena | Python, AI |
 | **AI Multi-Tool Assistant** | Full-stack AI web assistant | Django, React |
