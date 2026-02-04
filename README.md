@@ -16,6 +16,8 @@ I build end-to-end, reproducible AI and data systems — from raw data pipelines
 | **[Halma AI](https://github.com/kalebcoleman/halma-ai)** | Minimax + alpha–beta pruning game agent with GUI + arena | Python, AI |
 | **[AI Multi-Tool Assistant](https://github.com/kalebcoleman/ai-multitool-assistant)** | Full-stack AI web assistant | Django, React |
 | **[Deep Learning Notebooks](https://github.com/kalebcoleman/deep-learning-projects)** | CNNs, RNNs, tuning experiments | Python |
+| **[NAU Course Scraping](https://github.com/kalebcoleman/nau-course-scraping)** | Scrapes and structures NAU course listings | Python, Web Scraping |
+| **[spatialSportsR](https://github.com/kalebcoleman/spatialSportsR)** | Spatial sports analytics tools/package | R, Python |
 
 ---
 
