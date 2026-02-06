@@ -40,5 +40,6 @@ I build end-to-end, reproducible AI and data systems — from raw data pipelines
 
 ## Let’s Connect
 - GitHub: https://github.com/kalebcoleman  
+- Portfolio GitHub: https://github.com/kalebcoleman/portfolio  
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/kaleb-coleman-a1807a284/)
 - Email: kaleb.a.coleman@gmail.com  
