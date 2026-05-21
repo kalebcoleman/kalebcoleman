@@ -1,94 +1,107 @@
-# Hi, I'm Kaleb Coleman
+<div align="center">
 
-Data Science major | Cybersecurity minor  
-AI systems, sports analytics, healthcare modeling, and reproducible data pipelines
+# Hey, I'm Kaleb Coleman 👋
 
-I build end-to-end analytics and AI projects from raw data collection and validation through modeling, visualization, and deployment.
+### Data Science Student | Future AI + Robotics Engineer | Builder of ML, Data, and Simulation Projects
 
----
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Kaleb%20Coleman-blue?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/kaleb-coleman-a1807a284)
+[![GitHub](https://img.shields.io/badge/GitHub-kalebcoleman-black?style=for-the-badge&logo=github&logoColor=white)](https://github.com/kalebcoleman)
 
-## Recent Work
+<img src="https://komarev.com/ghpvc/?username=kalebcoleman&style=flat-square&color=blue" alt="Profile views"/>
 
-### [DataFest 2026](https://github.com/kalebcoleman/datafest-2026)
-My team's 2026 DataFest project focused on early signals of high healthcare utilization. The public repo shows the analysis pipeline, encounter-level data prep, geography-based segmentation, social-risk exploration, early-risk modeling, and the final presentation deck.
-
-### [NAU Capstone: Sports Expected Points Analysis](https://github.com/kalebcoleman/nau-capstone)
-Capstone work on expected points/goals modeling across NBA and NHL data, including shot-quality analysis, player evaluation, and a Streamlit dashboard.
+</div>
 
 ---
 
-## Highlighted Projects
+## About Me
 
-| Project | Description | Tech |
-|--------|-------------|------|
-| **[nba-data](https://github.com/kalebcoleman/nba-data)** | End-to-end ESPN data pipeline with raw JSON, validation layers, and analysis-ready outputs | R, SQL, JSON |
-| **[nba-modeling](https://github.com/kalebcoleman/nba-modeling)** | Leakage-aware NBA outcome modeling with rolling features and time-safe validation | R, Machine Learning |
-| **[spatialSportsR](https://github.com/kalebcoleman/spatialSportsR)** | Sports analytics package and spatial workflow tooling | R, Python |
-| **[halma-ai](https://github.com/kalebcoleman/halma-ai)** | Game-playing agent using minimax and alpha-beta pruning | Python, AI |
-| **[ai-multitool-assistant](https://github.com/kalebcoleman/ai-multitool-assistant)** | Full-stack assistant with multiple tools and agent workflows | Django, React |
-| **[NBA_APP](https://github.com/kalebcoleman/NBA_APP)** | NBA analytics platform monorepo with API, billing, auth, and infra foundations | TypeScript, Fastify, PostgreSQL, SQLite |
-| **[Weather-API](https://github.com/kalebcoleman/Weather-API)** | Real-time weather dashboard built around WeatherAPI | HTML, CSS, JavaScript |
-| **[nau-course-scraping](https://github.com/kalebcoleman/nau-course-scraping)** | Scrapes and structures NAU course listings into usable datasets | Python, Web Scraping |
+I am a Data Science undergraduate student at Northern Arizona University with a minor in Cybersecurity. After graduation, I plan to continue into graduate school at Arizona State University for Artificial Intelligence Engineering with a focus on robotics.
+
+I am interested in using coding, data, and machine learning to solve real-world problems. Some of my biggest interests include deep learning, computer vision, robotics, autonomous systems, simulation environments, generative AI, reinforcement learning, and intelligent decision-making systems.
+
+I enjoy projects where I get to combine data analysis, programming, and creativity. I have worked with large datasets, machine learning models, data pipelines, and visualizations, and I am continuing to build my skills in AI and robotics.
 
 ---
 
-## Public Repository Index
+## Technical Skills
 
-### Data Science, ML, and Analytics
-- [datafest-2026](https://github.com/kalebcoleman/datafest-2026) - Healthcare utilization modeling, social-risk analysis, clustering, and presentation artifacts from DataFest 2026
-- [nau-capstone](https://github.com/kalebcoleman/nau-capstone) - Expected points/goals analysis across NBA and NHL shot data
-- [nba-data](https://github.com/kalebcoleman/nba-data) - Reproducible NBA data engineering pipeline
-- [nba-modeling](https://github.com/kalebcoleman/nba-modeling) - NBA prediction and evaluation workflows
-- [nba-outcome-predictor](https://github.com/kalebcoleman/nba-outcome-predictor) - NBA game outcome prediction project
-- [spatialSportsR](https://github.com/kalebcoleman/spatialSportsR) - Spatial sports analytics tooling
-- [deep-learning-projects](https://github.com/kalebcoleman/deep-learning-projects) - Deep learning experiments and notebooks
-- [mnist-kaggle-notebook](https://github.com/kalebcoleman/mnist-kaggle-notebook) - MNIST modeling notebook work
-- [unsupervised-machine-learning](https://github.com/kalebcoleman/unsupervised-machine-learning) - Unsupervised learning experiments
-- [STA-478](https://github.com/kalebcoleman/STA-478) - Statistics course repository
-- [CS472-Autoencoder](https://github.com/kalebcoleman/CS472-Autoencoder) - Autoencoder coursework and experiments
-
-### AI, Agents, and Software Systems
-- [ai-multitool-assistant](https://github.com/kalebcoleman/ai-multitool-assistant) - Multi-tool AI assistant application
-- [halma-ai](https://github.com/kalebcoleman/halma-ai) - Search-based board game AI
-- [NBA_APP](https://github.com/kalebcoleman/NBA_APP) - NBA analytics product monorepo
-- [skills](https://github.com/kalebcoleman/skills) - Custom skill and workflow experiments
-- [opencode](https://github.com/kalebcoleman/opencode) - Coding workflow experiments and tooling
-
-### Web, APIs, and Applied Projects
-- [kalebcoleman](https://github.com/kalebcoleman/kalebcoleman) - This GitHub profile repository and main profile README
-- [portfolio](https://github.com/kalebcoleman/portfolio) - Personal portfolio website
-- [Weather-API](https://github.com/kalebcoleman/Weather-API) - Frontend weather dashboard using a live API
-- [nau-course-scraping](https://github.com/kalebcoleman/nau-course-scraping) - Academic data collection and scraping project
-- [malware-analysis](https://github.com/kalebcoleman/malware-analysis) - Malware analysis and security-focused coursework
-
-### Config, CLI, and Environment Setup
-- [neovim-config](https://github.com/kalebcoleman/neovim-config) - Personal Neovim setup
-- [roi-calculator-cli](https://github.com/kalebcoleman/roi-calculator-cli) - Small CLI utility project
-- [.tmux](https://github.com/kalebcoleman/.tmux) - tmux configuration repo
-- [tmuxinator](https://github.com/kalebcoleman/tmuxinator) - tmuxinator session configuration
+| Programming Languages | Tools and Libraries | Areas of Interest |
+| --- | --- | --- |
+| Python<br>R<br>C<br>SQL<br>JavaScript | scikit-learn<br>PyTorch<br>XGBoost<br>PyGAM<br>pandas<br>NumPy<br>Matplotlib<br>Streamlit<br>SQLite<br>PostgreSQL<br>Git and GitHub | Machine Learning<br>Deep Learning<br>Computer Vision<br>Robotics<br>Simulation<br>Data Engineering<br>Cybersecurity<br>Artificial Intelligence |
 
 ---
 
-## What I Work On
-- Predictive modeling and machine learning
-- Data engineering and reproducible analysis pipelines
-- Sports analytics and performance modeling
-- AI agents, search algorithms, and interactive systems
-- Applied cybersecurity and malware analysis
+## Featured Work
+
+- Built machine learning projects comparing autoencoders, PCA, denoising autoencoders, VAEs, and diffusion models for image reconstruction.
+- Created data analysis and visualization projects using large NBA and NHL datasets.
+- Won **Best Visualization** at ASA DataFest.
+- Developed Streamlit dashboards and visualizations to communicate data science results clearly.
+- Explored GPU-based model training using high-performance computing resources.
 
 ---
 
-## Tech Stack
-**Languages:** Python, R, SQL, JavaScript, TypeScript, C  
-**ML/Data:** scikit-learn, PyTorch, TensorFlow, pandas, tidyverse  
-**Web:** Django, React, Fastify, REST APIs  
-**Data Systems:** SQLite, PostgreSQL, JSON pipelines  
-**Tools:** Git, Linux, Docker, Jupyter, Streamlit
+## Featured Repositories
+
+| Repository | Focus |
+| --- | --- |
+| [ImageReconstruction](https://github.com/kalebcoleman/ImageReconstruction) | Image reconstruction using autoencoders, PCA, denoising autoencoders, VAEs, and diffusion-style approaches. |
+| [deep-learning-projects](https://github.com/kalebcoleman/deep-learning-projects) | Deep learning experiments and coursework projects exploring neural networks, model training, and applied AI concepts. |
+| [nba-modeling](https://github.com/kalebcoleman/nba-modeling) | Sports analytics and modeling using NBA data to explore prediction, player/team performance, and data-driven insights. |
+| [nba-data](https://github.com/kalebcoleman/nba-data) | Large-scale NBA data collection, cleaning, organization, and analysis workflows. |
+| [spatialSportsR](https://github.com/kalebcoleman/spatialSportsR) | Spatial sports analysis in R for athletic performance and shot/event patterns. |
+| [ai-multitool-assistant](https://github.com/kalebcoleman/ai-multitool-assistant) | AI assistant project combining multiple tools and features into one application-style workflow. |
+| [nau-capstone](https://github.com/kalebcoleman/nau-capstone) | Larger-scale applied data science and software development capstone work. |
+| [malware-analysis](https://github.com/kalebcoleman/malware-analysis) | Cybersecurity-focused work related to malware analysis concepts, reverse engineering, and security coursework. |
 
 ---
 
-## Connect
-- GitHub: [github.com/kalebcoleman](https://github.com/kalebcoleman)
-- Portfolio: [kalebcoleman portfolio](https://kaleb-hkg5dfafhzdmd0em.canadacentral-01.azurewebsites.net/1)
-- LinkedIn: [linkedin.com/in/kaleb-coleman-a1807a284](https://www.linkedin.com/in/kaleb-coleman-a1807a284/)
-- Email: `kaleb.a.coleman@gmail.com`
+## What I'm Working Toward
+
+My long-term goal is to work in artificial intelligence, robotics, autonomous systems, or simulation-based research. I want to keep building projects that combine software, machine learning, and real-world decision-making.
+
+I am especially interested in robotics applications involving drones, space systems, computer vision, and intelligent control systems.
+
+---
+
+## Hobbies
+
+Outside of school and coding, I enjoy sports, gaming, technology, learning about AI, and working on projects that help me grow as a developer and researcher.
+
+---
+
+## Languages and Tools
+
+<div align="center">
+
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" width="45" height="45" alt="Python"/>
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/r/r-original.svg" width="45" height="45" alt="R"/>
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" width="45" height="45" alt="C"/>
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" width="45" height="45" alt="JavaScript"/>
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg" width="45" height="45" alt="PostgreSQL"/>
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sqlite/sqlite-original.svg" width="45" height="45" alt="SQLite"/>
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" width="45" height="45" alt="Git"/>
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" width="45" height="45" alt="GitHub"/>
+
+</div>
+
+---
+
+## GitHub Stats
+
+<div align="center">
+
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=kalebcoleman&theme=dracula" alt="Kaleb's GitHub profile summary"/>
+
+<img src="https://streak-stats.demolab.com?user=kalebcoleman&theme=dracula&date_format=M%20j%5B%2C%20Y%5D" alt="Kaleb's GitHub streak"/>
+
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=kalebcoleman&theme=dracula" alt="Kaleb's top languages"/>
+
+</div>
+
+---
+
+## Connect With Me
+
+- LinkedIn: [Kaleb Coleman](https://www.linkedin.com/in/kaleb-coleman-a1807a284)
+- GitHub: [kalebcoleman](https://github.com/kalebcoleman)
