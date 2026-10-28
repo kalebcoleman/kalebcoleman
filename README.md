@@ -88,7 +88,7 @@ The project code is in a private repository. I am happy to walk through it on re
 | [nau-capstone](https://github.com/kalebcoleman/nau-capstone) | NAU capstone: NBA/NHL expected-points analysis. |
 | [malware-analysis](https://github.com/kalebcoleman/malware-analysis) | Cybersecurity coursework on malware analysis concepts and reverse engineering. |
 
-My two-arm Isaac Sim research is public in [rise-two-arm-research](https://github.com/kalebcoleman/rise-two-arm-research). The quadrotor control work with John Lok is in a private collaborative repository; happy to walk through it on request.
+My two-arm Isaac Sim research is public in [rise-two-arm-research](https://github.com/kalebcoleman/rise-two-arm-research). To see it run, open `checkpoints/Approved/00 WATCH MOTION.usda` in Isaac Sim 5.1 and press Play to watch the verified 26-second motion. The [validation record](https://github.com/kalebcoleman/rise-two-arm-research/blob/main/docs/VALIDATION.md) lists every check, and the [load and speed limits study](https://github.com/kalebcoleman/rise-two-arm-research/blob/main/isaac-sim-mcp/docs/BAR_LOAD_SPEED_LIMITS.md) maps where the grasp starts to fail (20 trials, 7 of them failures, all reported). These are simulation results, not a calibrated digital twin. The quadrotor control work with John Lok is in a private collaborative repository; happy to walk through it on request.
 
 ---
 
