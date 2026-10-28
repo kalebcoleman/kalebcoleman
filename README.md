@@ -80,7 +80,7 @@ The project code is in a private repository. I am happy to walk through it on re
 - Won **Best Visualization** at ASA DataFest; the 2026 project modeled early signals of high healthcare utilization.
 - Built a leakage-aware NBA win model and an ESPN data pipeline in R. On the held-out 2025-26 season the best model picked 68.6% of games correctly, against 55.4% for always picking the home team. Elo ratings alone reach 67.9%, so most of the signal is in the ratings. Predictions for 2026-27 are logged before each game and scored on the [live page](https://kalebcoleman.github.io/nba-modeling/live.html).
 - Compared autoencoders, PCA, denoising autoencoders, VAEs, and diffusion models for image reconstruction.
-- Developed NBA/NHL expected-points analysis for my NAU capstone and Streamlit dashboards to communicate results.
+- Developed NBA/NHL expected-points analysis for my NAU capstone ([research poster](https://kalebcoleman.github.io/portfolio/static/nau-capstone-poster.pdf)) and Streamlit dashboards to communicate results.
 - Trained models on GPU and HPC resources.
 
 ---
@@ -96,7 +96,7 @@ The project code is in a private repository. I am happy to walk through it on re
 | [nba-modeling](https://github.com/kalebcoleman/nba-modeling) | Leakage-aware NBA win modeling: time-ordered validation, tests that check features use only earlier games, a reproducible `targets` pipeline, and live predictions logged before tip-off. [Site](https://kalebcoleman.github.io/nba-modeling/) and [paper](https://kalebcoleman.github.io/nba-modeling/paper/paper.pdf). |
 | [nba-data](https://github.com/kalebcoleman/nba-data) | R package that collects ESPN NBA game data, validates it, and keeps a versioned SQLite database current during the season. Supplies the current-season data for the live predictions. |
 | [halma-ai](https://github.com/kalebcoleman/halma-ai) | Halma game AI using iterative-deepening minimax with alpha-beta pruning, a Tkinter GUI, and a benchmarking arena. |
-| [nau-capstone](https://github.com/kalebcoleman/nau-capstone) | NAU capstone: NBA/NHL expected-points analysis. |
+| [nau-capstone](https://github.com/kalebcoleman/nau-capstone) | NAU capstone: NBA/NHL expected-points analysis. [Research poster (PDF)](https://kalebcoleman.github.io/portfolio/static/nau-capstone-poster.pdf). |
 | [malware-analysis](https://github.com/kalebcoleman/malware-analysis) | Cybersecurity coursework on malware analysis concepts and reverse engineering. |
 
 My two-arm Isaac Sim research is public in [rise-two-arm-research](https://github.com/kalebcoleman/rise-two-arm-research). To see it run, open `checkpoints/Approved/00 WATCH MOTION.usda` in Isaac Sim 5.1 and press Play to watch the verified 26-second motion. The [validation record](https://github.com/kalebcoleman/rise-two-arm-research/blob/main/docs/VALIDATION.md) lists every check, and the [load and speed limits study](https://github.com/kalebcoleman/rise-two-arm-research/blob/main/isaac-sim-mcp/docs/BAR_LOAD_SPEED_LIMITS.md) maps where the grasp starts to fail (20 trials, 7 of them failures, all reported). These are simulation results, not a calibrated digital twin. The quadrotor control work with John Lok is in a private collaborative repository; happy to walk through it on request.
