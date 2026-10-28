@@ -6,6 +6,7 @@
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Kaleb%20Coleman-blue?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/kaleb-coleman-a1807a284)
 [![GitHub](https://img.shields.io/badge/GitHub-kalebcoleman-black?style=for-the-badge&logo=github&logoColor=white)](https://github.com/kalebcoleman)
+[![Portfolio](https://img.shields.io/badge/Portfolio-kalebcoleman.github.io-2a78d6?style=for-the-badge&logo=githubpages&logoColor=white)](https://kalebcoleman.github.io/portfolio/)
 
 <img src="https://komarev.com/ghpvc/?username=kalebcoleman&style=flat-square&color=blue" alt="Profile views"/>
 
@@ -43,10 +44,20 @@ I care about reproducible, honestly reported results: every claim should trace t
 
 ---
 
+## Sites
+
+| Site | What it is |
+| --- | --- |
+| [Portfolio](https://kalebcoleman.github.io/portfolio/) | Projects, current research focus, and resume. |
+| [NBA win modeling](https://kalebcoleman.github.io/nba-modeling/) | Results, methods, and a live page for the 2026-27 season. Each game day the pipeline logs a home-win probability for every game before tip-off, then scores the games once they finish. The [paper is a PDF](https://kalebcoleman.github.io/nba-modeling/paper/paper.pdf). |
+| [Image reconstruction](https://kalebcoleman.github.io/ImageReconstruction/) | Write-up and results from a CS 472 project comparing PCA and autoencoder-based image reconstruction (autoencoder, denoising autoencoder, VAE, and a diffusion extension) on MNIST and Fashion-MNIST. |
+
+---
+
 ## Featured Work
 
 - Won **Best Visualization** at ASA DataFest; the 2026 project modeled early signals of high healthcare utilization.
-- Built a leakage-aware NBA modeling pipeline with time-safe validation, plus an end-to-end ESPN data engineering pipeline in R.
+- Built a leakage-aware NBA win model and an ESPN data pipeline in R. On the held-out 2025-26 season the best model picked 68.6% of games correctly, against 55.4% for always picking the home team. Elo ratings alone reach 67.9%, so most of the signal is in the ratings. Predictions for 2026-27 are logged before each game and scored on the [live page](https://kalebcoleman.github.io/nba-modeling/live.html).
 - Compared autoencoders, PCA, denoising autoencoders, VAEs, and diffusion models for image reconstruction.
 - Developed NBA/NHL expected-points analysis for my NAU capstone and Streamlit dashboards to communicate results.
 - Trained models on GPU and HPC resources.
@@ -60,8 +71,8 @@ I care about reproducible, honestly reported results: every claim should trace t
 | [rise-two-arm-research](https://github.com/kalebcoleman/rise-two-arm-research) | Two UR5e arms with RG2 grippers manipulating a shared bar in Isaac Sim 5.1, with validated motion, evidence, and reproducible setup. |
 | [ImageReconstruction](https://github.com/kalebcoleman/ImageReconstruction) | Image reconstruction using autoencoders, PCA, denoising autoencoders, VAEs, and diffusion-style approaches. |
 | [deep-learning-projects](https://github.com/kalebcoleman/deep-learning-projects) | Deep learning experiments and coursework projects exploring neural networks, model training, and applied AI concepts. |
-| [nba-modeling](https://github.com/kalebcoleman/nba-modeling) | Leakage-aware NBA win modeling with rolling metrics, time-safe validation, and a reproducible pipeline, with a research paper. |
-| [nba-data](https://github.com/kalebcoleman/nba-data) | End-to-end ESPN NBA data engineering pipeline in R: raw JSON to validated tables, RDS/CSV/SQLite with versioned migrations. |
+| [nba-modeling](https://github.com/kalebcoleman/nba-modeling) | Leakage-aware NBA win modeling: time-ordered validation, tests that check features use only earlier games, a reproducible `targets` pipeline, and live predictions logged before tip-off. [Site](https://kalebcoleman.github.io/nba-modeling/) and [paper](https://kalebcoleman.github.io/nba-modeling/paper/paper.pdf). |
+| [nba-data](https://github.com/kalebcoleman/nba-data) | R package that collects ESPN NBA game data, validates it, and keeps a versioned SQLite database current during the season. Supplies the current-season data for the live predictions. |
 | [halma-ai](https://github.com/kalebcoleman/halma-ai) | Halma game AI using iterative-deepening minimax with alpha-beta pruning, a Tkinter GUI, and a benchmarking arena. |
 | [nau-capstone](https://github.com/kalebcoleman/nau-capstone) | NAU capstone: NBA/NHL expected-points analysis. |
 | [malware-analysis](https://github.com/kalebcoleman/malware-analysis) | Cybersecurity coursework on malware analysis concepts and reverse engineering. |
@@ -121,3 +132,4 @@ Outside of school and coding, I enjoy sports, gaming, technology, learning about
 
 - LinkedIn: [Kaleb Coleman](https://www.linkedin.com/in/kaleb-coleman-a1807a284)
 - GitHub: [kalebcoleman](https://github.com/kalebcoleman)
+- Portfolio: [kalebcoleman.github.io/portfolio](https://kalebcoleman.github.io/portfolio/)
