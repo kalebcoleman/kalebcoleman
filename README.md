@@ -140,11 +140,11 @@ Outside of school and coding, I enjoy sports, gaming, technology, learning about
 
 <div align="center">
 
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=kalebcoleman&theme=dracula" alt="Kaleb's GitHub profile summary"/>
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=kalebcoleman&theme=github_dark" alt="Kaleb's GitHub profile summary"/>
 
-<img src="https://streak-stats.demolab.com?user=kalebcoleman&theme=dracula&date_format=M%20j%5B%2C%20Y%5D" alt="Kaleb's GitHub streak"/>
+<img src="https://streak-stats.demolab.com?user=kalebcoleman&background=0D1117&border=30363D&stroke=58A6FF&ring=58A6FF&fire=58A6FF&currStreakLabel=58A6FF&sideLabels=E6EDF3&currStreakNum=58A6FF&sideNums=E6EDF3&dates=C9D1D9&date_format=M%20j%5B%2C%20Y%5D" alt="Kaleb's GitHub streak"/>
 
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=kalebcoleman&theme=dracula" alt="Kaleb's top languages"/>
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=kalebcoleman&theme=github_dark" alt="Kaleb's top languages"/>
 
 </div>
 
