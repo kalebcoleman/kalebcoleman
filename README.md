@@ -42,6 +42,17 @@ I care about reproducible, honestly reported results: every claim should trace t
 
 **Tools and skills:** NVIDIA Isaac Sim and Isaac Lab, USD scene authoring, MuJoCo, UR5e/RG2 manipulation, inverse kinematics, model predictive control, system identification, MCP-based simulator tooling, Linux/GPU workstation setup.
 
+### Energy-Aware Prescribed-Time Quadrotor Control
+
+A collaborative project with John Lok on robust quadrotor tracking. We are extending the [IM-NMPO](https://maobinlu.github.io/IM-NMPO/) internal-model nonlinear MPC framework toward controllers that track to a user-selected deadline while accounting for energy use.
+
+- **Goal:** prescribed-time tracking with user-chosen deadlines, actuator-aware planning, wind estimation, and energy-aware objectives.
+- **Platform:** an S500-based quadrotor modeled in MuJoCo, with motor lag and aerodynamic drag.
+- **Status:** simulation only. Modeling, comparisons, and a paper draft are in progress; hardware flight tests are planned to start in November 2026.
+- **Background:** [Robust Optimal Agile Flight of Quadrotors (IM-NMPO)](https://doi.org/10.1109/TRO.2026.3721737) and [Prescribed-Time Trajectory Tracking Control for Quadrotor Without Velocity Measurement](https://doi.org/10.1109/TMECH.2025.3547788).
+
+The project code is in a private repository. I am happy to walk through it on request.
+
 ---
 
 ## Sites
