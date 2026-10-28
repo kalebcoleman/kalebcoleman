@@ -63,7 +63,6 @@ I care about reproducible, honestly reported results: every claim should trace t
 | [nba-modeling](https://github.com/kalebcoleman/nba-modeling) | Leakage-aware NBA win modeling with rolling metrics, time-safe validation, and a reproducible pipeline, with a research paper. |
 | [nba-data](https://github.com/kalebcoleman/nba-data) | End-to-end ESPN NBA data engineering pipeline in R: raw JSON to validated tables, RDS/CSV/SQLite with versioned migrations. |
 | [halma-ai](https://github.com/kalebcoleman/halma-ai) | Halma game AI using iterative-deepening minimax with alpha-beta pruning, a Tkinter GUI, and a benchmarking arena. |
-| [ai-multitool-assistant](https://github.com/kalebcoleman/ai-multitool-assistant) | Full-stack ReAct agent app: Django REST backend, React (Vite) frontend, OpenAI and LlamaIndex. |
 | [nau-capstone](https://github.com/kalebcoleman/nau-capstone) | NAU capstone: NBA/NHL expected-points analysis. |
 | [malware-analysis](https://github.com/kalebcoleman/malware-analysis) | Cybersecurity coursework on malware analysis concepts and reverse engineering. |
 
