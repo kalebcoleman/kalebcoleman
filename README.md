@@ -48,8 +48,18 @@ A collaborative project with John Lok on robust quadrotor tracking. We are exten
 
 - **Goal:** prescribed-time tracking with user-chosen deadlines, actuator-aware planning, wind estimation, and energy-aware objectives.
 - **Platform:** an S500-based quadrotor modeled in MuJoCo, with motor lag and aerodynamic drag.
-- **Status:** simulation only. Modeling, comparisons, and a paper draft are in progress; hardware flight tests are planned to start in November 2026.
+- **Status:** simulation only. Hardware flight tests are planned to start in November 2026.
 - **Background:** [Robust Optimal Agile Flight of Quadrotors (IM-NMPO)](https://doi.org/10.1109/TRO.2026.3721737) and [Prescribed-Time Trajectory Tracking Control for Quadrotor Without Velocity Measurement](https://doi.org/10.1109/TMECH.2025.3547788).
+
+**Progress so far**
+
+- Built the S500 MuJoCo test bench and ported the IM-NMPO baseline.
+- Implemented a prescribed-time, energy-aware controller for simulation.
+- Added motor-lag and drag modeling, and fit a compact model that predicts a held-out trajectory.
+- Reproduced the baseline locally and ran all controllers on the same vehicle, trajectory, and disturbances.
+- Drafted a research paper (October 2026).
+
+**Next:** confirm the S500's measured parameters and control interfaces, then begin hardware flight tests. I will update this section as milestones land.
 
 The project code is in a private repository. I am happy to walk through it on request.
 
