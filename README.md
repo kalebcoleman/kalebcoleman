@@ -2,7 +2,7 @@
 
 # Hey, I'm Kaleb Coleman 👋
 
-### Data Science Student | AI + Robotics | Simulation, Controls, and Machine Learning
+### M.S. Student in AI Engineering (Robotics) at ASU | Research with the RISE Lab
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Kaleb%20Coleman-blue?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/kaleb-coleman-a1807a284)
 [![GitHub](https://img.shields.io/badge/GitHub-kalebcoleman-black?style=for-the-badge&logo=github&logoColor=white)](https://github.com/kalebcoleman)
@@ -15,9 +15,9 @@
 
 ## About Me
 
-I am a Data Science undergraduate student at Northern Arizona University with a minor in Cybersecurity. After graduation, I plan to continue into graduate school at Arizona State University for Artificial Intelligence Engineering with a focus on robotics.
+I graduated from Northern Arizona University with a B.S. in Data Science and a minor in Cybersecurity. I am now a master's student at Arizona State University in Artificial Intelligence Engineering with a focus on robotics, and I am doing research with the RISE Lab.
 
-My work sits where data science meets robotics: machine learning and data pipelines on one side, simulation, control, and autonomous systems on the other. This past year I moved from analytics and deep learning projects into hands-on robotics research in simulation, covering bimanual manipulation in NVIDIA Isaac Sim and prescribed-time control for quadrotors.
+My work sits where data science meets robotics: machine learning and data pipelines on one side, simulation, control, and autonomous systems on the other. I moved from analytics and deep learning projects into hands-on robotics research in simulation, covering bimanual manipulation in NVIDIA Isaac Sim and prescribed-time control for quadrotors.
 
 I care about reproducible, honestly reported results: every claim should trace to a run, a log, or a saved artifact, and limitations get written down next to the numbers.
 
@@ -35,7 +35,7 @@ I care about reproducible, honestly reported results: every claim should trace t
 
 | Project | What I'm doing |
 | --- | --- |
-| **[Two-arm manipulation in Isaac Sim](https://github.com/kalebcoleman/rise-two-arm-research)** *(RISE lab)* | Two opposing UR5e arms with RG2 grippers holding a shared bar in Isaac Sim 5.1. I added collision setup and validation, corrected joint frames, object-space goals with per-arm IK, and grasp, lift, and coordinated-motion experiments. The accepted run held four-finger contact for 100% of samples with 0 unexpected collisions, max slip 0.135 mm, and max tracking error 2.02 mm. I also mapped the load and speed limits of the setup (1.25 kg passed at baseline speed, 1.5 kg exceeded the drift bound). |
+| **[Two-arm manipulation in Isaac Sim](https://github.com/kalebcoleman/rise-two-arm-research)** *(RISE Lab)* | Two opposing UR5e arms with RG2 grippers holding a shared bar in Isaac Sim 5.1. I added collision setup and validation, corrected joint frames, object-space goals with per-arm IK, and grasp, lift, and coordinated-motion experiments. The accepted run held four-finger contact for 100% of samples with 0 unexpected collisions, max slip 0.135 mm, and max tracking error 2.02 mm. I also mapped the load and speed limits of the setup (1.25 kg passed at baseline speed, 1.5 kg exceeded the drift bound). |
 | **Digital twin and sim-to-real** *(in progress)* | The current model is a simulation, not yet a calibrated twin. Next: measure the real workstation (base, tool, and camera transforms, joint offsets, mass and inertia, gripper and actuator behavior, latency), then calibrate on one dataset and evaluate on held-out conditions. |
 | **Energy-Aware Prescribed-Time Quadrotor Control** *(with John Lok)* | Extending the IM-NMPO framework with user-selected tracking deadlines, motor-lag and drag modeling, wind estimation, and energy-aware planning on an S500-based MuJoCo test bench. Simulation comparisons, a held-out system-identification study, a paper draft, and a plan for hardware flight tests starting in November 2026. Reported results are simulation only and I label which ones are independently reproduced. |
 
@@ -73,9 +73,9 @@ My two-arm Isaac Sim research is public in [rise-two-arm-research](https://githu
 
 ## What I'm Working Toward
 
-**Now:** calibrating the Isaac Sim two-arm setup toward a real digital twin, reproducing and improving the prescribed-time quadrotor controller, and preparing for hardware flight tests.
+**Now:** doing research with the RISE Lab, calibrating the Isaac Sim two-arm setup toward a real digital twin, reproducing and improving the prescribed-time quadrotor controller, and preparing for hardware flight tests.
 
-**Next:** graduate study in AI Engineering with a robotics focus at Arizona State University, aimed at sim-to-real transfer, learning-based and optimal control, drones, and space systems.
+**Next:** completing my M.S. at ASU, aimed at sim-to-real transfer, learning-based and optimal control, drones, and space systems.
 
 ---
 
