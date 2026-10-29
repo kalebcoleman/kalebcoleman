@@ -4,7 +4,7 @@
 
 ### M.S. Student in AI Engineering (Robotics) at ASU | Research with the RISE Lab
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Kaleb%20Coleman-blue?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/kaleb-coleman-a1807a284)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Kaleb%20Coleman-blue?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/kalebacoleman/)
 [![GitHub](https://img.shields.io/badge/GitHub-kalebcoleman-black?style=for-the-badge&logo=github&logoColor=white)](https://github.com/kalebcoleman)
 [![Portfolio](https://img.shields.io/badge/Portfolio-kalebcoleman.github.io-2a78d6?style=for-the-badge&logo=githubpages&logoColor=white)](https://kalebcoleman.github.io/portfolio/)
 
@@ -18,7 +18,7 @@
 
 I graduated from Northern Arizona University with a B.S. in Data Science and a minor in Cybersecurity. I am now a master's student at Arizona State University in Artificial Intelligence Engineering with a focus on robotics, and I am doing research with the RISE Lab.
 
-My work sits where data science meets robotics: machine learning and data pipelines on one side, simulation, control, and autonomous systems on the other. I moved from analytics and deep learning projects into hands-on robotics research in simulation, covering bimanual manipulation in NVIDIA Isaac Sim and prescribed-time control for quadrotors.
+My work sits where data science meets robotics: machine learning and data pipelines on one side, simulation, control, and autonomous systems on the other. I moved from analytics and deep learning projects into hands-on robotics research in simulation, covering a UR5e digital twin in NVIDIA Isaac Sim and prescribed-time control for quadrotors.
 
 I care about reproducible, honestly reported results: every claim should trace to a run, a log, or a saved artifact, and limitations get written down next to the numbers.
 
@@ -36,8 +36,8 @@ I care about reproducible, honestly reported results: every claim should trace t
 
 | Project | What I'm doing |
 | --- | --- |
-| **[Two-arm manipulation in Isaac Sim](https://github.com/kalebcoleman/rise-two-arm-research)** *(RISE Lab)* | Two opposing UR5e arms with RG2 grippers holding a shared bar in Isaac Sim 5.1. I added collision setup and validation, corrected joint frames, object-space goals with per-arm IK, and grasp, lift, and coordinated-motion experiments. The accepted run held four-finger contact for 100% of samples with 0 unexpected collisions, max slip 0.135 mm, and max tracking error 2.02 mm. I also mapped the load and speed limits of the setup (1.25 kg passed at baseline speed, 1.5 kg exceeded the drift bound). |
-| **[Self-calibrating UR5e digital twin](https://github.com/kalebcoleman/rise-ur5e-twin)** *(in progress)* | The current model is a simulation, not yet a calibrated twin. Next: measure the real workstation (base, tool, and camera transforms, joint offsets, mass and inertia, gripper and actuator behavior, latency), then calibrate on one dataset and evaluate on held-out conditions. |
+| **[UR5e digital twin](https://github.com/kalebcoleman/ur5e-digital-twin)** *(current research)* | Building a single-arm UR5e and RG2 workstation simulation in Isaac Sim 5.1. The long-term goal is a real-to-sim-to-real loop that uses robot observations to calibrate the twin and supports manipulation controllers trained or planned in simulation. The workstation scene is verified in simulation; physical calibration and hardware validation are future work. |
+| **[Two-arm manipulation in Isaac Sim](https://github.com/kalebcoleman/rise-two-arm-research)** *(earlier research)* | Two simulated UR5e arms coordinated around a shared bar. In a 26-second run, all measured samples retained four-finger contact, with no unexpected collisions and 0.135 mm maximum slip. This work provides a foundation for the current twin research. |
 | **Energy-Aware Prescribed-Time Quadrotor Control** *(with John Lok)* | Extending the IM-NMPO framework with user-selected tracking deadlines, motor-lag and drag modeling, wind estimation, and energy-aware planning on an S500-based MuJoCo test bench. Simulation comparisons, a held-out system-identification study, a paper draft, and a plan for hardware flight tests starting in November 2026. Reported results are simulation only and I label which ones are independently reproduced. |
 
 **Tools and skills:** NVIDIA Isaac Sim and Isaac Lab, USD scene authoring, MuJoCo, UR5e/RG2 manipulation, inverse kinematics, model predictive control, system identification, MCP-based simulator tooling, Linux/GPU workstation setup.
@@ -71,7 +71,7 @@ The project code is in a private repository. I am happy to walk through it on re
 | --- | --- |
 | [Portfolio](https://kalebcoleman.github.io/portfolio/) | Projects, current research focus, and resume. |
 | [NBA win modeling](https://kalebcoleman.github.io/nba-modeling/) | Results, methods, and a live page for the 2026-27 season. Each game day the pipeline logs a home-win probability for every game before tip-off, then scores the games once they finish. The [paper is a PDF](https://kalebcoleman.github.io/nba-modeling/paper/paper.pdf). |
-| [Image reconstruction](https://kalebcoleman.github.io/ImageReconstruction/) | Write-up and results from a CS 472 project comparing PCA and autoencoder-based image reconstruction (autoencoder, denoising autoencoder, VAE, and a diffusion extension) on MNIST and Fashion-MNIST. |
+| [Image reconstruction](https://kalebcoleman.github.io/ImageReconstruction/) | CS 472 reconstruction project with available autoencoder results and a diffusion extension. PCA results and the final comparison are pending. |
 
 ---
 
@@ -79,7 +79,7 @@ The project code is in a private repository. I am happy to walk through it on re
 
 - Won **Best Visualization** at ASA DataFest; the 2026 project modeled early signals of high healthcare utilization.
 - Built a leakage-aware NBA win model and an ESPN data pipeline in R. On the held-out 2025-26 season the best model picked 68.6% of games correctly, against 55.4% for always picking the home team. Elo ratings alone reach 67.9%, so most of the signal is in the ratings. Predictions for 2026-27 are logged before each game and scored on the [live page](https://kalebcoleman.github.io/nba-modeling/live.html).
-- Compared autoencoders, PCA, denoising autoencoders, VAEs, and diffusion models for image reconstruction.
+- Developed autoencoder, denoising autoencoder, and VAE experiments, plus a diffusion extension; the PCA comparison remains pending.
 - Developed NBA/NHL expected-points analysis for my NAU capstone ([research poster](https://kalebcoleman.github.io/portfolio/static/nau-capstone-poster.pdf)) and Streamlit dashboards to communicate results.
 - Trained models on GPU and HPC resources.
 
@@ -90,7 +90,7 @@ The project code is in a private repository. I am happy to walk through it on re
 | Repository | Focus |
 | --- | --- |
 | [rise-two-arm-research](https://github.com/kalebcoleman/rise-two-arm-research) | Two UR5e arms with RG2 grippers manipulating a shared bar in Isaac Sim 5.1, with validated motion, evidence, and reproducible setup. |
-| [rise-ur5e-twin](https://github.com/kalebcoleman/rise-ur5e-twin) | Work in progress: a UR5e digital twin that fits its physics parameters from real robot data, toward MPC, imitation learning and RL trained in simulation. Simulation only so far; no real-robot data yet. |
+| [ur5e-digital-twin](https://github.com/kalebcoleman/ur5e-digital-twin) | Single-arm UR5e workstation simulation in Isaac Sim; real-data calibration and sim-to-real controller transfer are research goals. |
 | [ImageReconstruction](https://github.com/kalebcoleman/ImageReconstruction) | Image reconstruction using autoencoders, PCA, denoising autoencoders, VAEs, and diffusion-style approaches. |
 | [deep-learning-projects](https://github.com/kalebcoleman/deep-learning-projects) | Deep learning experiments and coursework projects exploring neural networks, model training, and applied AI concepts. |
 | [nba-modeling](https://github.com/kalebcoleman/nba-modeling) | Leakage-aware NBA win modeling: time-ordered validation, tests that check features use only earlier games, a reproducible `targets` pipeline, and live predictions logged before tip-off. [Site](https://kalebcoleman.github.io/nba-modeling/) and [paper](https://kalebcoleman.github.io/nba-modeling/paper/paper.pdf). |
@@ -105,7 +105,7 @@ My two-arm Isaac Sim research is public in [rise-two-arm-research](https://githu
 
 ## What I'm Working Toward
 
-**Now:** doing research with the RISE Lab, calibrating the Isaac Sim two-arm setup toward a real digital twin, reproducing and improving the prescribed-time quadrotor controller, and preparing for hardware flight tests.
+**Now:** doing research with the RISE Lab, developing the single-arm UR5e digital twin toward real-data calibration, reproducing and improving the prescribed-time quadrotor controller, and preparing for hardware flight tests.
 
 **Next:** completing my M.S. at ASU, aimed at sim-to-real transfer, learning-based and optimal control, drones, and space systems.
 
@@ -152,6 +152,6 @@ Outside of school and coding, I enjoy sports, gaming, technology, learning about
 
 ## Connect With Me
 
-- LinkedIn: [Kaleb Coleman](https://www.linkedin.com/in/kaleb-coleman-a1807a284)
+- LinkedIn: [Kaleb Coleman](https://www.linkedin.com/in/kalebacoleman/)
 - GitHub: [kalebcoleman](https://github.com/kalebcoleman)
 - Portfolio: [kalebcoleman.github.io/portfolio](https://kalebcoleman.github.io/portfolio/)
