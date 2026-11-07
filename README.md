@@ -64,17 +64,6 @@ I care about reproducible, honestly reported results: every claim should trace t
 
 <sub>Left: the UR5e and RG2 lowering the fourth brick. Right: the completed stack. Cropped from the [recording](https://github.com/kalebcoleman/BrickSim/blob/main/experiments/ur5e_lego/docs/evidence/ur5e-stack-four-room.mp4) and [result image](https://github.com/kalebcoleman/BrickSim/blob/main/experiments/ur5e_lego/docs/evidence/ur5e-stack-four-result.png) of that one run. Lab robot and bench assets, rendered in Isaac Sim 5.1.</sub>
 
-### Two-Arm Manipulation
-
-**[rise-two-arm-research](https://github.com/kalebcoleman/rise-two-arm-research)** | *Simulation demonstration complete*
-
-- **Built:** a shared-bar setup with two UR5e arms and RG2 grippers in Isaac Sim 5.1, adding collision validation, joint-frame corrections, grasp tests, and coordinated-motion tests. The robot, gripper, and bench models and integration tools came from the lab and upstream projects ([provenance](https://github.com/kalebcoleman/rise-two-arm-research/blob/main/docs/THIRD_PARTY.md)).
-- **Demonstrated:** a 26.07-second run, starting with the bar already grasped, with four-finger contact at all measured samples and 0.135 mm maximum slip. The playback is a recording, and contact and actuator parameters are uncalibrated, so this is not a calibrated physical digital twin. See the [validation record](https://github.com/kalebcoleman/rise-two-arm-research/blob/main/docs/VALIDATION.md).
-
-<img src="https://raw.githubusercontent.com/kalebcoleman/rise-two-arm-research/9bed4c33488909d291556772d9f11867219717b9/docs/media/storyboard.gif" width="440" alt="Two simulated UR5e arms on a workbench hold one wooden-colored bar between their grippers as it translates, yaws, pitches and returns."/>
-
-<sub>Six key frames of the accepted sequence, not continuous video. The bar starts already held.</sub>
-
 ### Quadrotor Control with John Lok
 
 *Collaborative, ongoing research in simulation*
@@ -94,7 +83,6 @@ The collaborative code is in a private repository. I am happy to talk through th
 - **[g1-locomotion-lab](https://github.com/kalebcoleman/g1-locomotion-lab):** training and evaluating simulated Unitree G1 locomotion in Isaac Lab with Newton/MuJoCo-Warp.
 - **[isaac-mcp](https://github.com/kalebcoleman/isaac-mcp):** pre-release MCP tools for agent-assisted Isaac Sim and Isaac Lab workflows.
 - **[UR5e brick experiments](https://github.com/kalebcoleman/BrickSim/tree/main/experiments/ur5e_lego):** my UR5e pick, place, and stacking experiments in a fork of BrickSim.
-- **[rise-two-arm-research](https://github.com/kalebcoleman/rise-two-arm-research):** two simulated UR5e arms manipulating a shared bar, with a [project page](https://kalebcoleman.github.io/rise-two-arm-research/) and evidence.
 
 **Data science**
 
