@@ -17,7 +17,7 @@
 
 ## About Me
 
-I build digital twins of robotic systems in simulation: a Unitree G1 humanoid, UR5e arms doing contact-rich assembly and two-arm manipulation, and quadrotors, in NVIDIA Isaac Sim, Isaac Lab, and MuJoCo. I also build the tools that let AI agents work in those simulators.
+I build digital twins of robotic systems in simulation: a Unitree G1 humanoid, a UR5e arm doing contact-rich assembly, and quadrotors, in NVIDIA Isaac Sim, Isaac Lab, and MuJoCo. I also build the tools that let AI agents work in those simulators.
 
 I am a master's student at Arizona State University in Artificial Intelligence Engineering with a focus on robotics, doing research with the RISE Lab. I graduated from Northern Arizona University with a B.S. in Data Science and a minor in Cybersecurity, so my work sits where data science meets robotics: machine learning and data pipelines on one side, simulation, control, and autonomous systems on the other.
 
@@ -65,18 +65,6 @@ Each project below is the simulation side of a twin: a physics model of a real r
 
 <sub>A warehouse built by one `sim__quick_start environment=warehouse` call. The walls, racks, and cargo are boxes authored by the tool; the wheeled robot is NVIDIA's public Carter model.</sub>
 
-### Two-Arm UR5e Manipulation
-
-**[rise-two-arm-research](https://github.com/kalebcoleman/rise-two-arm-research)** | *Simulation result; not a calibrated physical twin*
-
-- **Built:** two opposing UR5e arms with RG2 grippers coordinating around a shared 0.1 kg bar in Isaac Sim 5.1, with collision validation, joint-frame corrections, object-space goals, and per-arm inverse kinematics, on lab-supplied robot and bench assets.
-- **Demonstrated:** in the 26.07-second accepted sequence, four-finger contact held at every measured sample, the bar's maximum slip was 0.135 mm and 0.036 degrees, and the maximum tracking error was 2.02 mm. Load and speed tests found limits in this model only; they are not payload ratings. See the [project page](https://kalebcoleman.github.io/rise-two-arm-research/) and [validation results](https://github.com/kalebcoleman/rise-two-arm-research/blob/main/docs/VALIDATION.md).
-- **Working toward:** a repeatable baseline for changing one controller or task variable at a time. Contact and actuator parameters are uncalibrated, and real-hardware operation is planned, not done.
-
-<img src="https://raw.githubusercontent.com/kalebcoleman/rise-two-arm-research/9bed4c33488909d291556772d9f11867219717b9/docs/media/shared-object-lift.png" width="560" alt="Two UR5e arms with RG2 grippers lifting a shared bar above a workstation in a simulated room."/>
-
-<sub>The shared-bar task in Isaac Sim 5.1. Lab robot and bench assets.</sub>
-
 ### Quadrotor Control with John Lok
 
 *Collaborative, ongoing research in simulation*
@@ -96,7 +84,6 @@ The collaborative code is in a private repository. I am happy to talk through th
 - **[g1-locomotion-lab](https://github.com/kalebcoleman/g1-locomotion-lab):** training and evaluating simulated Unitree G1 locomotion in Isaac Lab with Newton/MuJoCo-Warp; 237 of 256 robots stayed up through the published pushed test.
 - **[contact-assembly-lab](https://github.com/kalebcoleman/contact-assembly-lab):** contact-rich robotic assembly testbed in Isaac Sim 6.2, with a UR5e, joint-strength physics, and a catalog of 29 structures.
 - **[isaac-mcp](https://github.com/kalebcoleman/isaac-mcp):** pre-release MCP tools for agent-assisted Isaac Sim and Isaac Lab workflows.
-- **[rise-two-arm-research](https://github.com/kalebcoleman/rise-two-arm-research):** two UR5e arms manipulating a shared bar in Isaac Sim, with validation results and a reproducible setup.
 
 **Data science**
 
@@ -133,7 +120,6 @@ The collaborative code is in a private repository. I am happy to talk through th
 | Site | What it is |
 | --- | --- |
 | [Portfolio](https://kalebcoleman.github.io/) | Projects, current research focus, and resume. |
-| [Two-arm UR5e research](https://kalebcoleman.github.io/rise-two-arm-research/) | The shared-bar manipulation experiment, its validation results, and how to replay it. |
 | [NBA win modeling](https://kalebcoleman.github.io/nba-modeling/) | Results, methods, and a live page for the 2026-27 season. Each game day the pipeline logs a home-win probability for every game before tip-off, then scores the games once they finish. The [paper is a PDF](https://kalebcoleman.github.io/nba-modeling/paper/paper.pdf). |
 | [Image reconstruction](https://kalebcoleman.github.io/ImageReconstruction/) | Older CS 472 coursework: diffusion samples on MNIST and CIFAR-10, with autoencoder baselines. |
 
