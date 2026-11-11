@@ -1,6 +1,6 @@
 <div align="center">
 
-# Kaleb Coleman
+# Hey, I'm Kaleb Coleman 👋
 
 ### Digital twins of robotic systems | M.S. AI Engineering (Robotics) at ASU | Research with the RISE Lab
 
@@ -8,6 +8,8 @@
 [![GitHub](https://img.shields.io/badge/GitHub-kalebcoleman-black?style=for-the-badge&logo=github&logoColor=white)](https://github.com/kalebcoleman)
 [![Portfolio](https://img.shields.io/badge/Portfolio-kalebcoleman.github.io-2a78d6?style=for-the-badge&logo=githubpages&logoColor=white)](https://kalebcoleman.github.io/)
 [![X](https://img.shields.io/badge/X-@kalebcoIeman-000000?style=for-the-badge&logo=x&logoColor=white)](https://x.com/kalebcoIeman)
+
+<img src="https://komarev.com/ghpvc/?username=kalebcoleman&style=flat-square&color=blue" alt="Profile views"/>
 
 </div>
 
@@ -96,6 +98,7 @@ The collaborative code is in a private repository. I am happy to talk through th
 
 - [nba-data](https://github.com/kalebcoleman/nba-data): R package that collects ESPN NBA game data and keeps a versioned SQLite database current during the season.
 - [datafest-2026](https://github.com/kalebcoleman/datafest-2026): my team's ASA DataFest project on patient journeys and healthcare utilization.
+- [halma-ai](https://github.com/kalebcoleman/halma-ai): Halma game AI using iterative-deepening minimax with alpha-beta pruning.
 - [ImageReconstruction](https://github.com/kalebcoleman/ImageReconstruction): older CS 472 coursework with DDPM diffusion models on MNIST and CIFAR-10 and autoencoder baselines.
 
 </details>
@@ -138,6 +141,44 @@ The collaborative code is in a private repository. I am happy to talk through th
 **Long term:** data-informed digital twins that connect real robots and simulation to improve models and control.
 
 **Next:** completing my M.S. at ASU, aimed at sim-to-real transfer, learning-based and optimal control, drones, and space systems.
+
+---
+
+## Hobbies
+
+Outside of school and coding, I enjoy sports, gaming, technology, learning about AI, and working on projects that help me grow as a developer and researcher.
+
+---
+
+## Languages and Tools
+
+<div align="center">
+
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" width="45" height="45" alt="Python"/>
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/r/r-original.svg" width="45" height="45" alt="R"/>
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" width="45" height="45" alt="C"/>
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pytorch/pytorch-original.svg" width="45" height="45" alt="PyTorch"/>
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg" width="45" height="45" alt="Linux"/>
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg" width="45" height="45" alt="PostgreSQL"/>
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sqlite/sqlite-original.svg" width="45" height="45" alt="SQLite"/>
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" width="45" height="45" alt="Git"/>
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" width="45" height="45" alt="GitHub"/>
+
+</div>
+
+---
+
+## GitHub Stats
+
+<div align="center">
+
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=kalebcoleman&theme=github_dark" alt="Kaleb's GitHub profile summary"/>
+
+<img src="https://streak-stats.demolab.com?user=kalebcoleman&background=0D1117&border=30363D&stroke=58A6FF&ring=58A6FF&fire=58A6FF&currStreakLabel=58A6FF&sideLabels=E6EDF3&currStreakNum=58A6FF&sideNums=E6EDF3&dates=C9D1D9&date_format=M%20j%5B%2C%20Y%5D" alt="Kaleb's GitHub streak"/>
+
+<img src="assets/top-languages.svg" alt="Kaleb's top languages"/>
+
+</div>
 
 ---
 
