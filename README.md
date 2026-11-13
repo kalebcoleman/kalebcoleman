@@ -53,15 +53,15 @@ Each project below is the simulation side of a twin: a physics model of a real r
 
 <sub>Left: the seven-part arch bridge at the end of its simulated build. Right: the run dashboard listing all 29 structures. Simulation only, rendered in Isaac Sim 6.2.</sub>
 
-### Isaac MCP
+### Twinsmith
 
-**[isaac-mcp](https://github.com/kalebcoleman/isaac-mcp)** | *Pre-release, in active development*
+**[twinsmith](https://github.com/kalebcoleman/twinsmith)** | *Source version 0.3.0*
 
-- **Built:** developed and extended tools for agent-assisted Isaac Sim and Isaac Lab workflows, so an AI agent can set up scenes, add cameras and LiDAR, import and move robots, and run training and evaluation jobs. It builds on Aldrin Inbaraj's [omni-kit-mcp](https://github.com/inbarajaldrin/omni-kit-mcp) and [isaac-sim-mcp](https://github.com/inbarajaldrin/isaac-sim-mcp).
-- **Demonstrated:** the example scenes and training runs in the project README are captures from live runs, with a record of how each was made. They illustrate the tools and are not benchmarks.
-- **Compatibility:** Linux x86_64 with PhysX as the release target. The documented builds are Isaac Sim 6.2.0.0 with Isaac Lab 3.0.0, and Isaac Sim 5.1.0.0 with Isaac Lab 2.3.2. See the [compatibility matrix](https://github.com/kalebcoleman/isaac-mcp/blob/main/docs/COMPATIBILITY.md).
+- **Built:** an MCP server an AI agent uses to build and drive robot simulations and digital twins: scenes, cameras and LiDAR, robot import and motion, and Isaac Lab training and evaluation, with Newton (MuJoCo-Warp) as the default engine for the scenes it builds, switchable toolsets and a `status` tool, asset packs kept outside the repository, a RoboSimStudio real-to-sim bridge, and a UR5e Jenga work cell. The default tool list is 31 tools and 15,178 estimated tokens, down from about 28,450 before toolsets. The UR5e work cell began as a fork of Aldrin Inbaraj's [isaac-sim-mcp](https://github.com/inbarajaldrin/isaac-sim-mcp); the bridge and client were first built on his [omni-kit-mcp](https://github.com/inbarajaldrin/omni-kit-mcp) and rewritten here.
+- **Demonstrated:** the example scenes and training runs in [Examples](https://github.com/kalebcoleman/twinsmith/blob/main/docs/EXAMPLES.md) are captures from live runs, with a record of how each was made. They illustrate the tools and are not benchmarks. The UR5e Jenga work cell is a candidate; runtime qualification is still open.
+- **Compatibility:** Linux x86_64 (Ubuntu 24.04 or 22.04). Newton is the default engine for the scenes these tools build; PhysX is opt-in, and the UR5e work cell runs on PhysX only. The claimed builds are Isaac Sim 6.2.0.0 with Isaac Lab 3.0.0, and Isaac Sim 5.1.0.0 with Isaac Lab 2.3.2. Isaac Sim 5.1 has no Newton, so that pairing is PhysX only. See the [compatibility matrix](https://github.com/kalebcoleman/twinsmith/blob/main/docs/COMPATIBILITY.md).
 
-<img src="https://raw.githubusercontent.com/kalebcoleman/isaac-mcp/1754b786f0622ee0523a7d287f6a6041ac775be2/docs/media/warehouse-quick-start.png" width="560" alt="Overhead view of a simulated warehouse with rows of shelving racks holding boxes, yellow aisle lines, and a small wheeled robot at the start of an aisle."/>
+<img src="https://raw.githubusercontent.com/kalebcoleman/twinsmith/1754b786f0622ee0523a7d287f6a6041ac775be2/docs/media/warehouse-quick-start.png" width="560" alt="Overhead view of a simulated warehouse with rows of shelving racks holding boxes, yellow aisle lines, and a small wheeled robot at the start of an aisle."/>
 
 <sub>A warehouse built by one `sim__quick_start environment=warehouse` call. The walls, racks, and cargo are boxes authored by the tool; the wheeled robot is NVIDIA's public Carter model.</sub>
 
@@ -84,7 +84,7 @@ The collaborative code is in a private repository. I am happy to talk through th
 
 - **[g1-locomotion-lab](https://github.com/kalebcoleman/g1-locomotion-lab):** training and evaluating simulated Unitree G1 locomotion in Isaac Lab with Newton/MuJoCo-Warp; 237 of 256 robots stayed up through the published pushed test.
 - **[contact-assembly-lab](https://github.com/kalebcoleman/contact-assembly-lab):** contact-rich robotic assembly testbed in Isaac Sim 6.2, with a UR5e, joint-strength physics, and a catalog of 29 structures.
-- **[isaac-mcp](https://github.com/kalebcoleman/isaac-mcp):** pre-release MCP tools for agent-assisted Isaac Sim and Isaac Lab workflows.
+- **[twinsmith](https://github.com/kalebcoleman/twinsmith):** MCP server for building robot simulations and digital twins in Isaac Sim and Isaac Lab, with Newton (MuJoCo-Warp) as the default engine, a RoboSimStudio real-to-sim bridge, switchable toolsets and a status tool (default list 15,178 estimated tokens, down from about 28,450), external asset packs, and a UR5e Jenga work cell.
 
 **Data science**
 
