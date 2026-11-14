@@ -55,11 +55,11 @@ Each project below is the simulation side of a twin: a physics model of a real r
 
 ### Twinsmith
 
-**[twinsmith](https://github.com/kalebcoleman/twinsmith)** | *Source version 0.3.0*
+**[twinsmith](https://github.com/kalebcoleman/twinsmith)** | *Source version 0.3.0, installed from source; the PyPI and npm 0.0.1 releases only reserve the name*
 
-- **Built:** an MCP server an AI agent uses to build and drive robot simulations and digital twins: scenes, cameras and LiDAR, robot import and motion, and Isaac Lab training and evaluation, with Newton (MuJoCo-Warp) as the default engine for the scenes it builds, switchable toolsets and a `status` tool, asset packs kept outside the repository, a RoboSimStudio real-to-sim bridge, and a UR5e Jenga work cell. The default tool list is 31 tools and 15,178 estimated tokens, down from about 28,450 before toolsets. The UR5e work cell began as a fork of Aldrin Inbaraj's [isaac-sim-mcp](https://github.com/inbarajaldrin/isaac-sim-mcp); the bridge and client were first built on his [omni-kit-mcp](https://github.com/inbarajaldrin/omni-kit-mcp) and rewritten here.
+- **Built:** an MCP server an AI agent uses to build and drive robot simulations and digital twins: scenes, cameras and LiDAR, robot import and motion, and Isaac Lab training and evaluation, with Newton (MuJoCo-Warp) as the default engine for the scenes it builds, asset packs kept outside the repository, a RoboSimStudio real-to-sim bridge, and a UR5e Jenga work cell. Tools come in switchable toolsets with a `status` tool: a client sees only the 6 `core` tools (about 1,586 estimated tokens) until it turns more on, and opt-in toolsets add ROS 2, Graph-as-Policy skill graphs, the VABAR benchmark, desktop capture and computer use. The UR5e work cell began as a fork of Aldrin Inbaraj's [isaac-sim-mcp](https://github.com/inbarajaldrin/isaac-sim-mcp); the bridge and client were first built on his [omni-kit-mcp](https://github.com/inbarajaldrin/omni-kit-mcp) and rewritten here.
 - **Demonstrated:** the example scenes and training runs in [Examples](https://github.com/kalebcoleman/twinsmith/blob/main/docs/EXAMPLES.md) are captures from live runs, with a record of how each was made. They illustrate the tools and are not benchmarks. The UR5e Jenga work cell is a candidate; runtime qualification is still open.
-- **Compatibility:** Linux x86_64 (Ubuntu 24.04 or 22.04). Newton is the default engine for the scenes these tools build; PhysX is opt-in, and the UR5e work cell runs on PhysX only. The claimed builds are Isaac Sim 6.2.0.0 with Isaac Lab 3.0.0, and Isaac Sim 5.1.0.0 with Isaac Lab 2.3.2. Isaac Sim 5.1 has no Newton, so that pairing is PhysX only. See the [compatibility matrix](https://github.com/kalebcoleman/twinsmith/blob/main/docs/COMPATIBILITY.md).
+- **Compatibility:** Linux x86_64 (Ubuntu 24.04 or 22.04). Newton is the default engine for the scenes these tools build; PhysX is opt-in. The UR5e work cell builds on either engine; on Newton its cameras and real-robot mirroring are not qualified yet. The claimed builds are Isaac Sim 6.2.0.0 with Isaac Lab 3.0.0, and Isaac Sim 5.1.0.0 with Isaac Lab 2.3.2. Isaac Sim 5.1 has no Newton, so that pairing is PhysX only. See the [compatibility matrix](https://github.com/kalebcoleman/twinsmith/blob/main/docs/COMPATIBILITY.md).
 
 <img src="https://raw.githubusercontent.com/kalebcoleman/twinsmith/1754b786f0622ee0523a7d287f6a6041ac775be2/docs/media/warehouse-quick-start.png" width="560" alt="Overhead view of a simulated warehouse with rows of shelving racks holding boxes, yellow aisle lines, and a small wheeled robot at the start of an aisle."/>
 
@@ -84,7 +84,7 @@ The collaborative code is in a private repository. I am happy to talk through th
 
 - **[g1-locomotion-lab](https://github.com/kalebcoleman/g1-locomotion-lab):** training and evaluating simulated Unitree G1 locomotion in Isaac Lab with Newton/MuJoCo-Warp; 237 of 256 robots stayed up through the published pushed test.
 - **[contact-assembly-lab](https://github.com/kalebcoleman/contact-assembly-lab):** contact-rich robotic assembly testbed in Isaac Sim 6.2, with a UR5e, joint-strength physics, and a catalog of 29 structures.
-- **[twinsmith](https://github.com/kalebcoleman/twinsmith):** MCP server for building robot simulations and digital twins in Isaac Sim and Isaac Lab, with Newton (MuJoCo-Warp) as the default engine, a RoboSimStudio real-to-sim bridge, switchable toolsets and a status tool (default list 15,178 estimated tokens, down from about 28,450), external asset packs, and a UR5e Jenga work cell.
+- **[twinsmith](https://github.com/kalebcoleman/twinsmith):** MCP server for building robot simulations and digital twins in Isaac Sim and Isaac Lab, with Newton (MuJoCo-Warp) as the default engine, a RoboSimStudio real-to-sim bridge, switchable toolsets (6 tools listed by default), external asset packs, and a UR5e Jenga work cell.
 
 **Data science**
 
@@ -96,10 +96,14 @@ The collaborative code is in a private repository. I am happy to talk through th
 
 <br/>
 
+- [TurtleBot3 ROS 2 sensing and Nav2 in Isaac Sim](https://kalebcoleman.github.io/projects/#turtlebot3-ros2-lidar): a RAS 545 course lab in simulation: LiDAR, camera, odometry and TF over ROS 2, checked in RViz, then AMCL localization and Nav2.
+- [spatialSportsR](https://github.com/kalebcoleman/spatialSportsR): R package and Python analytics for NBA shot data, with xFG and GAM shot-quality models and a Streamlit dashboard.
 - [nba-data](https://github.com/kalebcoleman/nba-data): R package that collects ESPN NBA game data and keeps a versioned SQLite database current during the season.
 - [datafest-2026](https://github.com/kalebcoleman/datafest-2026): my team's ASA DataFest project on patient journeys and healthcare utilization.
 - [halma-ai](https://github.com/kalebcoleman/halma-ai): Halma game AI using iterative-deepening minimax with alpha-beta pruning.
 - [ImageReconstruction](https://github.com/kalebcoleman/ImageReconstruction): older CS 472 coursework with DDPM diffusion models on MNIST and CIFAR-10 and autoencoder baselines.
+- [ai-multitool-assistant](https://github.com/kalebcoleman/ai-multitool-assistant): Django REST and React assistant with a ReAct agent on Google Gemini via LlamaIndex.
+- [nau-course-scraping](https://github.com/kalebcoleman/nau-course-scraping): Selenium scraper for the NAU course catalog with an AI and ethics curriculum analysis.
 
 </details>
 
@@ -137,7 +141,7 @@ The collaborative code is in a private repository. I am happy to talk through th
 
 ## What I'm Working Toward
 
-**Now:** doing research with the RISE Lab, working on a higher-fidelity UR5e workcell and Jenga manipulation, researching fall recovery for simulated humanoids, and studying quadrotor control with John Lok ahead of planned hardware validation.
+**Now:** doing research with the RISE Lab toward my M.S. thesis, a real-to-sim-to-real UR5e that plays Jenga with a person, starting with a higher-fidelity UR5e work cell and Jenga manipulation in simulation. I am also researching fall recovery for simulated humanoids and studying quadrotor control with John Lok ahead of planned hardware validation.
 
 **Long term:** data-informed digital twins that connect real robots and simulation to improve models and control.
 
