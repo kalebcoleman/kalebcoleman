@@ -35,7 +35,7 @@ Each project below is the simulation side of a twin: a physics model of a real r
 
 - **Built:** trained a simulated Unitree G1 walking policy using Isaac Lab's existing velocity task and PPO setup on Newton/MuJoCo-Warp, then wrote the evaluation and reporting around it: a scripted stand, walk, turn, and stop test with random pushes, a sweep across saved checkpoints, and a study of when and where robots fall. The task, rewards, and PPO are upstream components, not a new algorithm of mine.
 - **Demonstrated:** 237 of 256 simulated robots stayed up through the 24-second pushed test in the published evaluation (two reruns gave 231 and 233), with turning the most common point of failure. This is one policy from one training seed, not a general reliability claim.
-- **Working toward:** fall recovery. Recent get-up results still need revalidation for physical plausibility, so I do not count that problem as solved.
+- **Working toward:** fall recovery. In simulation, the current get-up policy passes every validity check on 68% of 256 unseen lying poses, and 52% of 750 induced falls end with the robot walking again. The get-up still straddles and the hand-over to walking is the weak link, so I do not count that problem as solved.
 
 <img src="https://raw.githubusercontent.com/kalebcoleman/g1-locomotion-lab/8f137ed254012589fed4eaa171ec5547288046c0/media/hero_before_after.gif" width="100%" alt="Two groups of 16 simulated Unitree G1 humanoids on a checkered floor following the same stand, walk, turn and stop commands. On the left, at training iteration 0, robots collapse and reset. On the right, at iteration 1499, they stay upright and walk."/>
 
